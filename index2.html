@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_fishy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        header{
+            background-color: chartreuse;
+        }
+        nav{
+            background-color: greenyellow;
+            display: inline-block;
+            width: 80%;
+        }
+        nav img{
+            width: 10%;
+        }
+        main{
+            background-color: green;
+            font-size: 15px;
+        }
+        footer{
+            background-color: goldenrod;
+        }
+        li{
+            display: inline-block;
+            width: 150px;
+            margin: 10px;
+            color: blue;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: red;
+        }
+        p{
+            line-height: 2;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 40% 40%;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+        }
+
+        .grid img{
+            width: 100%;
+        }
+
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#main_content">back to main content</a>
+    <header>
+        <h1> my web</h1>
+    </header>
+    <nav>
+  <ul>
+    <li>
+        <a href="https://www.youtube.com/watch?v=6_hl8AB7Uf0"> song 1</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=clcUZ7d_8ek"> song 2</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=JJis0sld2cM&list=RDJJis0sld2cM&start_radio=1"> song 3</a>
+    </li>
+  </ul>
+  <img src="images/fish.jpg" alt="spin_fishy">  
+    </nav>
+    <main id="main_content">
+        <h2> nothing else to watch</h2>
+        <p>
+            live is such a painfull and i want something make my self comfortable
+        </p>
+    </main>
+    <footer>
+        @2026 kien sigma male
+    </footer>
+    <div class="grid">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiBQ69f7d87bJYDz-F6AUQiAFU8XHtomqOttB6-HgcQ&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6zFlwIsZRyUzTMYClgZb1scfF-i3GTiSIRloduE0QQ&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCmLjtu7ps6gsZSem_XVH6DGzbIGZ8KhP4vhNHbaOQw&s=10">
+    </div>
+
+    <div class="flex">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiBQ69f7d87bJYDz-F6AUQiAFU8XHtomqOttB6-HgcQ&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6zFlwIsZRyUzTMYClgZb1scfF-i3GTiSIRloduE0QQ&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCmLjtu7ps6gsZSem_XVH6DGzbIGZ8KhP4vhNHbaOQw&s=10">
+    </div>
+</body>
+</html>
